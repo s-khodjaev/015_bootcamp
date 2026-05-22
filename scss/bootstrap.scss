@@ -2,10 +2,12 @@
 $font-family-sans-serif: "Open Sans", sans-serif;
 
 // Colors
-$primary: #ffc107;
+// $primary: #ffc107;
 $dark: #212529;
 $light: #f9fafe;
-$body-bg: #fff;
+$body-bg: #2a2a2c;
+$body-color: #fff;
+$link-color: rgba(255, 255, 255, 0.55) !default;
 
 // Spacing
 $spacer: 1rem !default;
@@ -23,30 +25,6 @@ $spacers: (
 
 $heading-margin-bottom: $spacer * 1 !default;
 $line-height-base: 1.7 !default;
-
-// Buttons
-$button-radius: 50px;
-$button-padding-x: 30px;
-$button-padding-y: 10px;
-
-$btn-border-radius: $button-radius;
-$btn-border-radius-sm: $button-radius;
-$btn-border-radius-lg: $button-radius;
-$btn-padding-y: $button-padding-y;
-$btn-padding-y-sm: $button-padding-y;
-$btn-padding-y-lg: $button-padding-y;
-$btn-padding-x: $button-padding-x;
-$btn-padding-x-sm: $button-padding-x;
-$btn-padding-x-lg: $button-padding-x;
 $navbar-toggler-border-radius: 5px;
-
-// Inputs
-$input-radius: 0px;
-$input-btn-padding-y: 1rem;
-$input-btn-padding-x: 1rem;
-$input-border-radius: $input-radius;
-$input-border-radius-sm: $input-radius;
-$input-border-radius-lg: $input-radius;
-$input-border-color: #666;
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
