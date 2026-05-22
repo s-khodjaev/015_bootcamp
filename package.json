@@ -1,0 +1,30 @@
+{
+  "name": "015_bootcamp",
+  "version": "1.0.0",
+  "description": "bootcamp website built using bootstrap 5",
+  "keywords": [
+    "bootcamp",
+    "bs5"
+  ],
+  "homepage": "https://github.com/s-khodjaev/015_bootcamp#readme",
+  "bugs": {
+    "url": "https://github.com/s-khodjaev/015_bootcamp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-khodjaev/015_bootcamp.git"
+  },
+  "license": "MIT",
+  "author": "skhodjaev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --watch --no-source-map scss:css"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.2.0",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.100.0"
+  }
+}
