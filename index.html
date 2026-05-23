@@ -15,7 +15,7 @@
     <title>Bootcamp Website</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">Frontend Bootcamp</a>
         <button
@@ -46,7 +46,7 @@
     </nav>
 
     <!-- Header -->
-    <header class="header my-7">
+    <header class="header p-6 bg-dark">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -58,7 +58,7 @@
               and greatest technologies tp prepare them for their first dev
               role.
             </p>
-            <a href="#" class="btn btn-primary px-3 py-2 fs-5"
+            <a href="#" class="btn btn-primary btn-lg px-4 py-2 fs-5"
               >Start The Enrollment</a
             >
           </div>
@@ -68,6 +68,64 @@
         </div>
       </div>
     </header>
+
+    <!-- Newsletter -->
+    <section class="newsletter p-5 text-bg-primary">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-5">
+            <h3>Sign Up For Our Newsletter</h3>
+          </div>
+          <div class="col-md-7">
+            <div class="input-group mb-3">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-control form-control-lg"
+                placeholder="Enter Email"
+              />
+              <button type="button" class="btn btn-dark btn-lg">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="boxes py-5">
+      <div class="container">
+        <div class="row gap-4">
+          <div class="col-md p-3 text-bg-dark text-center rounded-1">
+            <i class="fas fa-laptop fa-2x"></i>
+            <h4>Virtual</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus, dolorem?
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+          <div class="col-md p-3 bg-gray text-center rounded-1">
+            <i class="fas fa-user fa-2x"></i>
+            <h4>Hybrid</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus, dolorem?
+            </p>
+            <a href="#" class="btn btn-dark">Read More</a>
+          </div>
+          <div class="col-md p-3 text-bg-dark text-center rounded-1">
+            <i class="fas fa-users fa-2x"></i>
+            <h4>In Person</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus, dolorem?
+            </p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>

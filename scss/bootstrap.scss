@@ -2,10 +2,8 @@
 $font-family-sans-serif: "Open Sans", sans-serif;
 
 // Colors
-// $primary: #ffc107;
 $dark: #212529;
 $light: #f9fafe;
-$body-bg: #2a2a2c;
 $body-color: #fff;
 $link-color: rgba(255, 255, 255, 0.55) !default;
 
@@ -26,5 +24,10 @@ $spacers: (
 $heading-margin-bottom: $spacer * 1 !default;
 $line-height-base: 1.7 !default;
 $navbar-toggler-border-radius: 5px;
+
+.form-control::placeholder {
+  color: #6c757d !important;
+  opacity: 1;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
