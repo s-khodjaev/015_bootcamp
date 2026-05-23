@@ -2,3 +2,13 @@
   background-color: #c2c3c7;
   color: #333;
 }
+
+.text-color {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
